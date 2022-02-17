@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+}
+
+.first{
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 510px;
+    width: 100%;
+}
+
+.first .opacity {
+    background-color: rgba(36, 36, 36, .75);
+    height: 100%
+}
+
+.first .head h3{
+    float: left;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 30px 30px;
+    color: #f2f2f2;
+    font-family: monospace;
+    cursor: pointer;
+}
+.first .head ul{
+    float: right;
+    list-style: none;
+    padding-right: 60px;
+}
+.first .head ul li{
+        display: inline-block;
+        color: #f2f2f2;
+        font-size: 17px;
+        padding: 35px 15px;
+        font-weight: 600;
+        font-family: monospace;
+        letter-spacing: 2px;
+        cursor: pointer;
+}
+.first .head ul li:hover{
+    color: #e96c77;
+    transition: all;
+}
+
+.first .head h3:hover{
+    color: #e96c77;
+    transition: all;
+}
+
+.first .intro{
+    height: 150px;
+    width: 100%;
+    padding-top: 180px;
+    text-align: center
+}
+.first .intro h2{
+    color: #f2f2f2;
+    font-size: 35px;    
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.first .intro p{
+    padding-top:  20px;
+    font-size: 26.5px;
+    font-family: sans-serif;
+    font-weight: 650;
+    letter-spacing: 1.5px;
+    color: #e96c77;
+    padding-bottom: 45px;
+}
+.first .intro button{
+    padding: 10px 30px;
+    background-color: #e13745;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    outline: 0;
+    border: 1px solid red;
+    border-radius: 25px;
+    cursor: pointer
+}
+.first .intro button:hover{
+    background-color: #e96c77;
+    transform: scale(1.2, 1.2)
+}
+
+.second{
+    width: 100%;
+    color: #f2f2f2;
+    height: 680px;
+    text-align: center;
+}
+
+.second .content h3{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #555555
+}
+
+.second .content p{
+    padding-top: 40px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+    color: #808080;
+    padding-bottom: 60px;
+}
+
+.second .frame .one{
+    border: 1px solid #efefef;
+    width: 400px;
+    float: left;
+    margin: 20px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 0 3px 0 0 rgb(0 ,0 ,0 , 0.1);
+}
+
+.second .frame .two{
+    border: 1px solid #efefef;
+    width: 400px;
+    float: left;
+    margin: 20px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 0 3px 0 0 rgb(0 ,0 ,0 , 0.1);
+}
+
+.second .frame .three{
+    border: 1px solid #efefef;
+    width: 400px;
+    float: left;
+    margin: 20px;
+    height: 270px;
+    background-color: #fff;
+    box-shadow: 0 3px 0 0 rgb(0 ,0 ,0 , 0.1);
+}
+
+.second .frame .one i{
+    color: #e13745;
+    padding-top: 20px;
+    font-size: 80px;
+}
+
+.second .frame .one h2{
+    color: #555555;
+    font-weight: 900px;
+    padding-top: 25px;
+    letter-spacing: 1.5px;
+}
+
+.second .frame .one h4{
+    padding: 20px 30px;
+    color: #808080;
+}
+
+.second .frame .two i{
+    color: #e13745;
+    padding-top: 20px;
+    font-size: 80px;
+}
+
+.second .frame .two h2{
+    color: #555555;
+    font-weight: 900px;
+    padding-top: 25px;
+    letter-spacing: 1.5px;
+}
+
+.second .frame .two h4{
+    padding: 20px 30px;
+    color: #808080;
+}
+
+
+.second .frame .three i{
+    color: #e13745;
+    padding-top: 20px;
+    font-size: 80px;
+}
+
+.second .frame .three h2{
+    color: #555555;
+    font-weight: 900px;
+    padding-top: 25px;
+    letter-spacing: 1.5px;
+}
+
+.second .frame .three h4{
+    padding: 20px 30px;
+    color: #808080;
+}
+
+.second .frame .one:hover{
+    background-color: #f2f2f2;
+    transform: scale(1.2,1.2);
+}
+
+.second .frame .two:hover{
+    background-color: #f2f2f2;
+    transform: scale(1.2,1.2);
+}
+
+.second .frame .three:hover{
+    background-color: #f2f2f2;
+    transform: scale(1.2,1.2);
+}
+
+.third{
+    width: 100%;
+    color: #f2f2f2;
+    height: 1080px;
+    text-align: center;
+    background-color: #e96c77;
+}
+
+.third .content h3{
+    padding-top: 70px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.third .content p{
+    padding: 40px 150px;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.frame2{
+    width: 400px;
+    border: 1px solid #EC828C;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    background-color: #EC828C;
+    height: 300px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.frame2 .one {
+    height: 80px;
+    width: 80px;
+    background-color: #5b5c6b;
+    margin-left: 40%;
+    border-radius: 50px;
+}
+.frame2 .one i{
+    padding-top: 25px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.frame2  h2{
+    color: #fff;
+    font-weight: 900px;
+    padding-top: 25px;
+    letter-spacing: 1.5px;
+    font-family: monospace
+
+}
+
+.frame2  h4{
+    padding: 20px 30px;
+    color:#e9f7fc;
+    font-family: cursive;
+}
+.frame2:hover{
+    transform: scale(1.1,1.1);
+}
+
+.fourth{
+    width: 100%;
+    background-color: white;
+    height: 600px;
+    text-align: center;
+}
+
+.fourth .cont h3{
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #555555
+}
+.fourth .img .one img{
+    width: 400px;
+    height: 202px;
+    
+}
+.fourth .one{
+    padding-top: 40px;
+    margin-right: 40px;
+    width: 400px;
+    height: 270px;
+    display: inline-block;
+}
+.fourth .img .one h2{
+    color: #555555;
+    font-weight: 700px;
+    padding-top: 25px;
+    letter-spacing: 1.5px;
+}
+.fourth .img .one h4{
+    padding: 20px 30px;
+    color: #808080;
+    font-family: monospace;
+    padding-bottom: 35px;
+}
+.fourth .img .one button{   
+    padding: 10px 35px;
+    border: 1px solid #cccccc;
+    background-color: #fff;
+    cursor: pointer;
+    font-weight: 900;
+    color: #555555;
+    margin-top: 20px;
+}
+
+.fourth .img .one button:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.last{
+    text-align: center;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 710px;
+}
+
+.last .content h3{
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: sans-serif;
+    color: #555555
+}
+
+.last .content p{
+    padding: 40px 150px;
+    color: #e96c77;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.last .contact{
+    height: 380px;
+    width: 700px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+.last .contact .message{
+    width: 55%;
+    float: left;
+    height: 100%;
+    padding-top: 30px;
+}
+    
+.last .contact .message .input{
+    width: 70%;
+    display: block;
+    margin-left: 40px;
+    padding: 10px 20px;
+}
+.last .contact .message textarea{
+    width: 70%;
+    margin: 0px 40px;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+.last .contact .message button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #e13745;
+    font-family: monospace;
+    color: #fff;
+    float: left;
+    cursor: pointer;
+    border: 0px;
+    margin-left: 40px;
+}
+.last .contact .message button:hover{
+    background-color: #EC828C;
+}
+
+.last .contact .message .butt:hover{
+    background-color:#808080;
+    transform: scale(1.2,1.2);
+}
+
+.last .contact .message .butt{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #5b5c6b;
+    font-family: monospace;
+    outline: 0;
+    color: #fff;
+    border: 1px solid #cccccc;
+    cursor: pointer;
+    float: left;
+    border: 0px;
+    margin-left: 25px;
+}
+.last .contact .info{
+    padding-top: 12px;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #808080;
+}
+
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.footer p{
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+}
+
+.footer span{
+    color:#0895d1;
+    font-size:15px;
+    font-weight:700;
+}
+
